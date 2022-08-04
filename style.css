@@ -1,0 +1,152 @@
+/* Пвсевдоклассы и их элементы */
+
+/* hover срабатывает при наведении */
+div:first-child {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+div:hover {
+  background-color: yellow;
+  transition: 2s;
+}
+
+/* пвсевдокласс для ссылок */
+/* visited подсвечивает посещённые ссылки */
+
+/* a:visited {
+  color: green;
+} */
+
+/* active - подсвечивает ссылку в момент нажатия */
+
+/* a:active {
+  color: black;
+}
+
+.block {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+} */
+
+/* .block:active {
+  background-color: teal;
+  transition: 2s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* first child, last child, nth-child() обращения только к некоторым элементам на странице */
+/* li:first-child > div {
+  background-color: yellow;
+}
+
+li:nth-child(3) > div {
+  background-color: green;
+}
+
+li:last-child > div {
+  background-color: blue;
+} */
+
+/* ul {
+  list-style-type: disc;
+}
+ul li::marker {
+  color: red;
+} */
+
+/* input {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  transition: 0.8s;
+} */
+
+/* focus - отрабатывает при фокусировке на элементе */
+/* input:focus {
+  background-color: yellow;
+  transition: 0.8s;
+} */
+
+/* not - задаёт стили всему, что не содержит данный селектор*/
+/* .div-1,
+.div-2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+div:not(.div-2) {
+  background-color: yellow;
+} */
+
+/* valid, invalid - проверка данных в инпуте */
+/* input:valid { */
+/* проверка на правильность данных по типу */
+/* background-color: green;
+} */
+
+/* input:invalid { */
+/* если введены неправильные данные */
+/* background-color: red;
+} */
+
+/* ПСЕВДОЭЛЕМЕНТЫ */
+
+/* h1::before { - ДОБАВЛЯЕТ КОНТЕНТ ДО ОСНОВНОГО КОНТЕНТА
+  content: "World";
+}
+
+h1::after { - КОНТЕНТ ПОСЛЕ ОСНОВНОГО КОНТЕНТА
+  content: "World";
+} */
+
+/* selection - ПРИМЕНЯЕТ СТИЛИ К ВЫДЕЛЕННОМУ ТЕКСТУ */
+/* p::selection {
+  color: red;
+  background-color: black;
+} */
+
+/* h1::first-letter {
+  color: red;
+  font-size: 55px;
+}
+
+/* first line */
+/* p::first-line {
+  color: red;
+  font-size: 25px;
+} */
+
+/* odd применяет стили к нечётным элементам
+  even к чётным */
+/* li:nth-child(even {
+    color: red;
+  }) */
+
+/* li:nth-child(3n + 10) {
+  color: aqua;
+} */
